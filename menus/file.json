@@ -1,0 +1,18 @@
+{
+    "menu": [{
+        "label": "File",
+        "submenu": [{
+            "label": "Export",
+            "submenu": [
+                { "type": "separator" },
+                { "label": "Using Pandoc",
+                    "submenu": [{
+                        "label": "As PDF",
+                        "command": "pandoc:pdf"
+                    }]
+                },
+                { "type": "separator" }
+            ]
+        }]
+    }]
+}
