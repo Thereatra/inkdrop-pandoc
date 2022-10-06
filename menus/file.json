@@ -9,7 +9,12 @@
                     "submenu": [{
                         "label": "As PDF",
                         "command": "pandoc:pdf"
-                    }]
+                    },
+                    {
+                        "label": "As html5",
+                        "command": "pandoc:html5"
+                    }
+                    ]
                 },
                 { "type": "separator" }
             ]
