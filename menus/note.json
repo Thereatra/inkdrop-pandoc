@@ -1,0 +1,15 @@
+{
+    "context-menu": {
+        ".note-list-bar .note-list-item-view": [
+            { "type": "separator" },
+            {
+                "label": "Export using Pandoc",
+                "submenu": [
+                    { "label": "As PDF", "command": "pandoc:pdf" },
+                    { "label": "As html5", "command": "pandoc:html5" }
+                ]
+            },
+            { "type": "separator" }
+        ]
+    }
+}
