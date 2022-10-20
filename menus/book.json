@@ -1,0 +1,15 @@
+{
+    "context-menu": {
+        ".sidebar-menu .sidebar-menu-book-list-item, .sidebar-book-filter-menu .sidebar-menu-book-list-item": [
+            { "type": "separator" },
+            {
+                "label": "Export using Pandoc",
+                "submenu": [
+                    { "label": "As PDF", "command": "pandoc:book:pdf" },
+                    { "label": "As html5", "command": "pandoc:book:html5" }
+                ]
+            },
+            { "type": "separator" }
+        ]
+    }
+}
