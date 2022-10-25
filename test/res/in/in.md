@@ -285,10 +285,10 @@ be prefaced with an exclamationmark. Inside the parentheses, put the URL where
 you want the image to be found, along with an *optional* title for the image,
 surrounded in quotes. For example:
 
-This is ![an image of a cat](https://github.com/Thereatra/inkdrop-pandoc/blob/main/test/res/in/online.jpg)
+This is ![an image](https://github.com/Thereatra/inkdrop-pandoc/blob/main/test/res/in/online.jpg)
 with the image fetched from a website.
 
-And this is ![an image of another cat](local.jpg) with the image fetched from the file system.
+And this is ![an image](local.jpg) with the image fetched from the file system.
 
 ### Emphasis
 
