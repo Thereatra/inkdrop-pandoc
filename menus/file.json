@@ -40,6 +40,9 @@
                         { "label": "Interactive notebook formats", "submenu": [
                             { "label": "As Jupyter notebook (ipynb)", "command": "pandoc:jupyter"}
                         ] },
+                        { "label": "Page layout formats", "submenu": [
+                            { "label": "As InDesign ICML", "command": "pandoc:indesign"}
+                        ] },
                         { "label": "PDF", "submenu": [
                             { "label": "As PDF", "command": "pandoc:pdf"}
                         ] }
