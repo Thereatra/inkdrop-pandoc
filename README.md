@@ -1,4 +1,4 @@
-# Inkdrop Pandoc Integration
+# Inkdrop Pandoc Integration ![version](https://inkdrop-plugin-badge.vercel.app/api/version/pandoc) ![downloads](https://inkdrop-plugin-badge.vercel.app/api/downloads/pandoc)
 
 **⚠️ Pandoc installation required ⚠️**
 
