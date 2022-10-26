@@ -4,11 +4,11 @@
 
 This plugins extends the export functionality of [Inkdrop](https://www.inkdrop.app/) by integrating [Pandoc](https://pandoc.org) for file conversion.
 
-## Supported file types
+## Supported filetypes
 
-Pandoc supports a wide range of different file types, the plugin aims to support all file types that Pandoc can convert to. Currently only the following types are supported:
+Pandoc supports a wide range of different filetypes, the plugin aims to support all filetypes that Pandoc can convert to.
 
-- .pdf
+Currently all filetypes that Pandoc supports conversion to is supported, most filetypes are however currently only supported with basic conversion functionality.
 
 ## Version history
 
