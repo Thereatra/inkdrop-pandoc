@@ -6,6 +6,7 @@
                 "label": "Export using Pandoc",
                 "submenu": [
                     { "label": "HTML formats", "submenu": [
+                        { "label": "As (X)HTML 4", "command": "pandoc:html4"},
                         { "label": "As HTML5", "command": "pandoc:html5"}
                     ] },
                     { "label": "PDF", "submenu": [
