@@ -5,6 +5,15 @@
             {
                 "label": "Export using Pandoc",
                 "submenu": [
+                    { "label": "Lightweight markup formats", "submenu": [
+                        { "label": "As Markdown", "command": "pandoc:markdown"},
+                        { "label": "As reStructuredText", "command": "pandoc:reStructuredText"},
+                        { "label": "As AsciiDoc", "command": "pandoc:asciiDoc"},
+                        { "label": "As Emacs Org-Mode", "command": "pandoc:emacsOrgMode"},
+                        { "label": "As Emacs Muse", "command": "pandoc:emacsMuse"},
+                        { "label": "As Textile", "command": "pandoc:textile"},
+                        { "label": "As Markua", "command": "pandoc:markua"}
+                    ] },
                     { "label": "HTML formats", "submenu": [
                         { "label": "As (X)HTML 4", "command": "pandoc:html4"},
                         { "label": "As HTML5", "command": "pandoc:html5"}
