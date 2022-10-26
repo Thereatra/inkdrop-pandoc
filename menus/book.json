@@ -26,6 +26,9 @@
                         { "label": "As GNU TexInfo", "command": "pandoc:book:gnuTexInfo"},
                         { "label": "As Haddock markup", "command": "pandoc:book:haddockMarkup"}
                     ] },
+                    { "label": "Outline formats", "submenu": [
+                        { "label": "As OPML", "command": "pandoc:book:opml"}
+                    ] },
                     { "label": "Bibliography formats", "submenu": [
                         { "label": "As BibTeX", "command": "pandoc:book:bibtex"},
                         { "label": "As BibLaTeX", "command": "pandoc:book:biblatex"},
