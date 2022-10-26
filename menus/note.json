@@ -22,6 +22,9 @@
                         { "label": "As BibLaTeX", "command": "pandoc:biblatex"},
                         { "label": "As CSL JSON", "command": "pandoc:cslJson"}
                     ] },
+                    { "label": "Interactive notebook formats", "submenu": [
+                        { "label": "As Jupyter notebook (ipynb)", "command": "pandoc:jupyter"}
+                    ] },
                     { "label": "PDF", "submenu": [
                         { "label": "As PDF", "command": "pandoc:pdf"}
                     ] }
