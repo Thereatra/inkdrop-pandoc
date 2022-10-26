@@ -44,6 +44,15 @@
                     { "label": "Page layout formats", "submenu": [
                         { "label": "As InDesign ICML", "command": "pandoc:book:indesign"}
                     ] },
+                    { "label": "Slide show formats", "submenu": [
+                        { "label": "As LaTeX Beamer", "command": "pandoc:book:latexBeamer"},
+                        { "label": "As Microsoft PowerPoint", "command": "pandoc:book:microsoftPowerpoint"},
+                        { "label": "As Slidy", "command": "pandoc:book:slidy"},
+                        { "label": "As reveal.js", "command": "pandoc:book:revealjs"},
+                        { "label": "As Slideous", "command": "pandoc:book:slideous"},
+                        { "label": "As S5", "command": "pandoc:book:s5"},
+                        { "label": "As DZSlides", "command": "pandoc:book:dzslides"}
+                    ] },
                     { "label": "PDF", "submenu": [
                         { "label": "As PDF", "command": "pandoc:book:pdf"}
                     ] }
