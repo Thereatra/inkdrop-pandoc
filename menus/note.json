@@ -30,6 +30,10 @@
                         { "label": "As roff man", "command": "pandoc:roffMan"},
                         { "label": "As roff ms", "command": "pandoc:roffMs"}
                     ] },
+                    { "label": "TeX formats", "submenu": [
+                        { "label": "As LaTeX", "command": "pandoc:latex"},
+                        { "label": "As ConTeXt", "command": "pandoc:context"}
+                    ] },
                     { "label": "Outline formats", "submenu": [
                         { "label": "As OPML", "command": "pandoc:opml"}
                     ] },
