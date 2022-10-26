@@ -34,6 +34,12 @@
                         { "label": "As LaTeX", "command": "pandoc:latex"},
                         { "label": "As ConTeXt", "command": "pandoc:context"}
                     ] },
+                    { "label": "XML formats", "submenu": [
+                        { "label": "As DocBook", "command": "pandoc:docbook"},
+                        { "label": "As JATS", "command": "pandoc:jats"},
+                        { "label": "As TEI Simple", "command": "pandoc:teiSimple"},
+                        { "label": "As OpenDocument XML", "command": "pandoc:openDocumentXml"}
+                    ] },
                     { "label": "Outline formats", "submenu": [
                         { "label": "As OPML", "command": "pandoc:opml"}
                     ] },
