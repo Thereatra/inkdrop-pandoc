@@ -5,8 +5,12 @@
             {
                 "label": "Export using Pandoc",
                 "submenu": [
-                    { "label": "As PDF", "command": "pandoc:book:pdf" },
-                    { "label": "As html5", "command": "pandoc:book:html5" }
+                    { "label": "HTML formats", "submenu": [
+                        { "label": "As HTML5", "command": "pandoc:book:html5"}
+                    ] },
+                    { "label": "PDF", "submenu": [
+                        { "label": "As PDF", "command": "pandoc:book:pdf"}
+                    ] }
                 ]
             },
             { "type": "separator" }

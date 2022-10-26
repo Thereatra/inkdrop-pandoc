@@ -8,8 +8,12 @@
                 {
                     "label": "Using Pandoc",
                     "submenu": [
-                        { "label": "As PDF", "command": "pandoc:pdf" },
-                        { "label": "As html5", "command": "pandoc:html5" }
+                        { "label": "HTML formats", "submenu": [
+                            { "label": "As HTML5", "command": "pandoc:html5"}
+                        ] },
+                        { "label": "PDF", "submenu": [
+                            { "label": "As PDF", "command": "pandoc:pdf"}
+                        ] }
                     ]
                 },
                 { "type": "separator" }
