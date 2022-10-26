@@ -48,6 +48,13 @@
                     { "label": "Page layout formats", "submenu": [
                         { "label": "As InDesign ICML", "command": "pandoc:indesign"}
                     ] },
+                    { "label": "Wiki markup formats", "submenu": [
+                        { "label": "As MediaWiki markup", "command": "pandoc:mediawiki"},
+                        { "label": "As DokuWiki markup", "command": "pandoc:dokuwiki"},
+                        { "label": "As XWiki markup", "command": "pandoc:xwiki"},
+                        { "label": "As ZimWiki markup", "command": "pandoc:zimwiki"},
+                        { "label": "As Jira wiki markup", "command": "pandoc:jirawiki"}
+                    ] },
                     { "label": "Slide show formats", "submenu": [
                         { "label": "As LaTeX Beamer", "command": "pandoc:latexBeamer"},
                         { "label": "As Microsoft PowerPoint", "command": "pandoc:microsoftPowerpoint"},
