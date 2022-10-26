@@ -9,6 +9,11 @@
                         { "label": "As (X)HTML 4", "command": "pandoc:book:html4"},
                         { "label": "As HTML5", "command": "pandoc:book:html5"}
                     ] },
+                    { "label": "Bibliography formats", "submenu": [
+                        { "label": "As BibTeX", "command": "pandoc:book:bibtex"},
+                        { "label": "As BibLaTeX", "command": "pandoc:book:biblatex"},
+                        { "label": "As CSL JSON", "command": "pandoc:book:cslJson"}
+                    ] },
                     { "label": "PDF", "submenu": [
                         { "label": "As PDF", "command": "pandoc:book:pdf"}
                     ] }
