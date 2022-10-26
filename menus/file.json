@@ -29,6 +29,10 @@
                             { "label": "As GNU TexInfo", "command": "pandoc:gnuTexInfo"},
                             { "label": "As Haddock markup", "command": "pandoc:haddockMarkup"}
                         ] },
+                        { "label": "Roff formats", "submenu": [
+                            { "label": "As roff man", "command": "pandoc:roffMan"},
+                            { "label": "As roff ms", "command": "pandoc:roffMs"}
+                        ] },
                         { "label": "Outline formats", "submenu": [
                             { "label": "As OPML", "command": "pandoc:opml"}
                         ] },
