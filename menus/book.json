@@ -42,6 +42,11 @@
                         { "label": "As BibLaTeX", "command": "pandoc:book:biblatex"},
                         { "label": "As CSL JSON", "command": "pandoc:book:cslJson"}
                     ] },
+                    { "label": "Word processor formats", "submenu": [
+                        { "label": "As Microsoft Word docx", "command": "pandoc:book:microsoftWord"},
+                        { "label": "As Rich Text Format RTF", "command": "pandoc:book:rtf"},
+                        { "label": "As OpenOffice/LibreOffice ODT", "command": "pandoc:book:openoffice"}
+                    ] },
                     { "label": "Interactive notebook formats", "submenu": [
                         { "label": "As Jupyter notebook (ipynb)", "command": "pandoc:book:jupyter"}
                     ] },
