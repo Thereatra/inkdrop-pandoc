@@ -1,7 +1,7 @@
 {
   "name": "pandoc",
   "main": "./lib/index",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Provides Pandoc integration for Inkdrop ⚠️ Pandoc installation required ⚠️",
   "author": {
     "name": "Thereatra",
