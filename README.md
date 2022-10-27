@@ -17,7 +17,13 @@ Install the plugin using one of the two options:
 
 ## Usage
 
-The plugin adds new export options in the file menu, as well as in the note and notebook context menus. Simply click the desired output format and select the file destination.
+The plugin adds new export options in the file-, note context- and notebook context-menus.
+
+1. Make sure you have [Pandoc installed](https://pandoc.org/installing.html) and [all requirements](https://pandoc.org/MANUAL.html) are met for the filetype you want to convert to
+2. Use the file-, note context-, or notebook context-menu
+3. Select `Export using Pandoc`
+4. Select your desired output filetype from the list
+5. Select the file destination using the dialog
 
 | Export using the file menu                 | Export using the note context menu                   | Export using the notebook context menu                   |
 |--------------------------------------------|------------------------------------------------------|----------------------------------------------------------|
