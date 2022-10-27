@@ -9,8 +9,24 @@
   },
   "keywords": [
     "inkdrop",
+    "plugin",
     "pandoc",
-    "plugin"
+    "conversion", "file conversion", "document conversion",
+    "export", "file export", "document export",
+    "lightweight markup", "markdown", "restructuredtext", "asciidoc", "emacs org-mode", "emacs muse",
+    "html", "html4", "html5",
+    "ebook", "epub", "fictionbook2",
+    "documentation", "texinfo", "haddock",
+    "roff", "man", "ms",
+    "tex", "latex", "context",
+    "xml", "docbook", "jats", "tei", "opendocument",
+    "outline", "opml",
+    "word processor", "word", "rtf", "odt",
+    "interactive notebook", "jupyter",
+    "page layout", "indesign",
+    "wiki markup", "mediawiki", "dokuwiki", "xwiki", "zimwiki", "jira",
+    "slide show", "beamer", "powerpoint", "slidy", "reveal.js", "slideous", "s5", "dzslides",
+    "pdf"
   ],
   "homepage": "https://github.com/Thereatra/inkdrop-pandoc#readme",
   "repository": {
