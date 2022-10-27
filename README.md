@@ -17,7 +17,7 @@ Install the plugin using one of the two options:
 
 ## Usage
 
-The plugin adds new export options in the file menu, as well as in the note and notebook context menus.
+The plugin adds new export options in the file menu, as well as in the note and notebook context menus. Simply click the desired output format and select the file destination.
 
 | Export using the file menu                 | Export using the note context menu                   | Export using the notebook context menu                   |
 |--------------------------------------------|------------------------------------------------------|----------------------------------------------------------|
