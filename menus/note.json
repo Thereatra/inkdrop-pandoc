@@ -43,11 +43,6 @@
                     { "label": "Outline formats", "submenu": [
                         { "label": "As OPML", "command": "pandoc:opml"}
                     ] },
-                    { "label": "Bibliography formats", "submenu": [
-                        { "label": "As BibTeX", "command": "pandoc:bibtex"},
-                        { "label": "As BibLaTeX", "command": "pandoc:biblatex"},
-                        { "label": "As CSL JSON", "command": "pandoc:cslJson"}
-                    ] },
                     { "label": "Word processor formats", "submenu": [
                         { "label": "As Microsoft Word docx", "command": "pandoc:microsoftWord"},
                         { "label": "As Rich Text Format RTF", "command": "pandoc:rtf"},
