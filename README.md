@@ -19,6 +19,10 @@ Install the plugin using one of the two options:
 
 The plugin adds new export options in the file menu, as well as in the note and notebook context menus.
 
+| Export using the file menu                 | Export using the note context menu                   | Export using the notebook context menu                   |
+|--------------------------------------------|------------------------------------------------------|----------------------------------------------------------|
+| ![File menu export](/docs/images/file.png) | ![Note context export](/docs/images/noteContext.png) | ![Notebook context export](/docs/images/bookContext.png) |
+
 ## Pandoc conversion compatability
 
 The plugin has had limited testing on the following systems, your mileage may vary.
