@@ -2,7 +2,7 @@
 
 **⚠️ Pandoc installation required ⚠️**
 
-This plugins extends the export functionality of [Inkdrop](https://www.inkdrop.app/) by integrating [Pandoc](https://pandoc.org) for file conversion.
+This plugin extends the export functionality of [Inkdrop](https://www.inkdrop.app/) by integrating [Pandoc](https://pandoc.org) for file conversion.
 
 Pandoc supports a wide range of different filetypes and the plugin aims to support all the ones that Pandoc can convert to from markdown.
 
