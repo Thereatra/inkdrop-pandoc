@@ -89,6 +89,6 @@
     "simple-pandoc": "^0.2.0"
   },
   "devDependencies": {
-    "ava": "^4.3.3"
+    "ava": "^6.1.1"
   }
 }
