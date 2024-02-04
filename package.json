@@ -82,7 +82,7 @@
     "test": "ava"
   },
   "engines": {
-    "inkdrop": "^5.3.1"
+    "inkdrop": ">=5.6.0 <7"
   },
   "dependencies": {
     "sanitize-filename": "^1.6.3",
