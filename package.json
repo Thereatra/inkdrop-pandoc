@@ -83,7 +83,6 @@
     "inkdrop": ">=5.6.0 <7"
   },
   "dependencies": {
-    "sanitize-filename": "^1.6.3",
-    "simple-pandoc": "^0.2.0"
+    "sanitize-filename": "^1.6.3"
   }
 }
