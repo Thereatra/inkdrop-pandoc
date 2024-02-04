@@ -29,17 +29,19 @@ The plugin adds new export options in the file-, note context- and notebook cont
 |--------------------------------------------|------------------------------------------------------|----------------------------------------------------------|
 | ![File menu export](/docs/images/file.png) | ![Note context export](/docs/images/noteContext.png) | ![Notebook context export](/docs/images/bookContext.png) |
 
-## Pandoc conversion compatability
+## Compatibility
 
-The plugin has had limited testing on the following systems, your mileage may vary.
+The compatibility with different systems and Pandoc versions may vary, see the compatibility matrix below for all the known/tested configuration combinations.
 
-🔥 Full functionality found  
-🚧 Partial functionality found  
-🚨 No functionality found
+- 🔥 Full functionality found
+- 🚧 Partial functionality found
+- 🚨 No functionality found
+- ❓ Compatibility untested
 
-| Pandoc version | Linux             | Windows                                                                             | macOS |
-|----------------|-------------------|-------------------------------------------------------------------------------------|-------|
-| 2.19.2         | 🔥 Manjaro 22.0.0 | 🚧 Windows 11 21H2 <br> Broken: `.pdf`, `.epub`, `.docx`, `.odt`, `.ipynb`, `.pptx` |       |
+| Pandoc version | Linux         | Windows                                                                                                                | macOS |
+|----------------|---------------|------------------------------------------------------------------------------------------------------------------------|-------|
+| 3.1.11         | 🚧 Manjaro 23 <br> Broken: slide formats, `.pdf` | 🚧 Windows 11 23H2 <br> Broken: `.pdf`, `.epub`, `.docx`, `.odt`, `.pptx`           | ❓    |
+| 2.19.2         | 🔥 Manjaro 22                                    | 🚧 Windows 11 21H2 <br> Broken: `.pdf`, `.epub`, `.docx`, `.odt`, `.pptx`, `.ipynb` | ❓    |
 
 ## Version history
 
